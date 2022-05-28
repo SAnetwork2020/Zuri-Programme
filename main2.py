@@ -13,8 +13,6 @@ def read_file_content(filename):
 def count_words():
     text = read_file_content("./story.txt")
     # [assignment] Add your code here
-    count1 = text.split(" ")
-    print(count1)
     word = {}
     word["glass"] = text.count("glass")
     word["As"] = text.count("As")
