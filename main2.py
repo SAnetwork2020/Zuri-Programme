@@ -9,7 +9,6 @@ def read_file_content(filename):
            print(f.read())
            return "As she raised a glass of water, everyone expected they would be asked the typical glass half empty or glass half full question."
 
-
 def count_words():
     text = read_file_content("./story.txt")
     # [assignment] Add your code here
